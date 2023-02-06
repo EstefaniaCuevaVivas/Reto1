@@ -1,4 +1,20 @@
 
+function calculadoraSuma(operacion,op1,op2,op3){
+
+  let resultadoSuma;
+
+  if( operacion == "sum"){
+    resultadoSuma = op1 + op2 + op3
+  }
+
+  return resultadoSuma
+}
+console.log(calculadoraSuma("sum",1,2,3))
+
+
+
+
+
 function calculadoraResta(operacion,op1,op2){
 
   let resultadoResta;
