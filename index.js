@@ -1,3 +1,4 @@
+
 function calculadoraSuma(operacion,op1,op2,op3){
 
   let resultadoSuma;
@@ -9,6 +10,8 @@ function calculadoraSuma(operacion,op1,op2,op3){
   return resultadoSuma
 }
 console.log(calculadoraSuma("sum",1,2,3))
+
+
 
 
 
