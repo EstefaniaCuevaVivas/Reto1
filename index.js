@@ -1,3 +1,15 @@
+function calculadoraSuma(operacion,op1,op2){
+
+  let resultadoSuma;
+
+  if( operacion == "sum"){
+    resultadoSuma = op1 + op2
+  }
+
+  return resultadoSuma
+}
+
+
 
 function calculadoraResta(operacion,op1,op2){
 
